@@ -46,7 +46,7 @@
       const formData = new FormData();
       formData.append("file", file);
 
-      const response = await fetch("http://localhost:8000/upload-audio/](https://mc9l4nsk-8000.brs.devtunnels.ms/)", {
+      const response = await fetch("https://mc9l4nsk-8000.brs.devtunnels.ms/", {
         method: "POST",
         body: formData
       })
